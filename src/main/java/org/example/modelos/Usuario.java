@@ -4,11 +4,11 @@ package org.example.modelos;
 public class Usuario{
 
     //ATRIBUTOS=VARIABLES=DATOS
-    Integer id;
-    String nombres;
-    String documento;
-    Integer ubicacion;
-    String correoElectronico;
+    public Integer id;
+    private String nombres;
+    public String documento;
+    public Integer ubicacion;
+    public String correoElectronico;
 
 
 
